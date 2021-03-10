@@ -16,7 +16,7 @@ bar = progressbar.ProgressBar(maxval=timer, \
 bar.start()
 file = config.sound['file']
 
-for i in range(0, timer):
+for i in range(1, timer+1):
     time.sleep(1)
     bar.update(i)
 
