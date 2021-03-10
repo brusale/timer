@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import time
 import argparse
 import os
@@ -15,7 +17,7 @@ bar.start()
 file = config.sound['file']
 
 for i in range(0, timer):
-    time.sleep(60)
+    time.sleep(1)
     bar.update(i)
 
 os.system("mpg123 " + file)
