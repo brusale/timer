@@ -17,7 +17,7 @@ bar.start()
 file = config.sound['file']
 
 for i in range(1, timer+1):
-    time.sleep(1)
+    time.sleep(60)
     bar.update(i)
 
 os.system("mpg123 " + file)
